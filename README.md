@@ -50,3 +50,10 @@ This sets the environment variable CHOKIDAR_USEPOLLING=true inside the container
 This tells Chokidar (used by many dev tools like Vite, Webpack, etc.) to use polling instead of native file system watching.
 
 Polling is slower but more reliable in Docker containers, where native file system notifications often don't work properly.
+
+
+
+# Docker CLI
+docker init -  to generate automatic docker file
+docker compose up - to run docker file via yaml file
+
